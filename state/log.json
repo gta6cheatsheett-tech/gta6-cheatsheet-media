@@ -1,0 +1,17 @@
+{
+  "timezone": "America/Chicago",
+  "posts": [
+    {
+      "date": "2026-11-18",
+      "slot": "launch-night",
+      "time": "2026-11-18T17:58-06:00",
+      "platform": "instagram",
+      "format": "carousel",
+      "pillar": "official news",
+      "hook": "GTA 6 is already live",
+      "media_id": "18118522628148122",
+      "status": "posted"
+    }
+  ],
+  "misses": []
+}
