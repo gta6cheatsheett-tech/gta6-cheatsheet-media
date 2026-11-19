@@ -30,6 +30,13 @@ jobs:
       - name: Build
         timeout-minutes: 8
         run: python tools/build.py
+      - name: Commit posts
+        if: always()
+        run: |
+          git config user.name "gta6-render-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add out || true
+          git diff --cached --quiet || (git commit -m "Render outputs" && git pull --rebase -q && git push)
       - name: Index official videos
         timeout-minutes: 15
         continue-on-error: true
@@ -39,5 +46,5 @@ jobs:
         run: |
           git config user.name "gta6-render-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add out index || true
+          git add index || true
           git diff --cached --quiet || (git commit -m "Render outputs" && git pull --rebase -q && git push)
