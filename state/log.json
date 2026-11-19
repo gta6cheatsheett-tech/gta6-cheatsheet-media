@@ -11,7 +11,66 @@
       "hook": "GTA 6 is already live",
       "media_id": "18118522628148122",
       "status": "posted"
+    },
+    {
+      "date": "2026-11-18",
+      "slot": "7:47 PM",
+      "time": "2026-11-19T02:11:01.711Z",
+      "platforms": {
+        "instagram": "reel+story posted",
+        "tiktok": "missed - Buffer connector not available",
+        "youtube": "missed - Buffer connector not available"
+      },
+      "format": "reel+story",
+      "pillar": "engagement (this or that)",
+      "hook": "Jason or Lucia?",
+      "art": [
+        "Jason_and_Lucia_03",
+        "Jason_Duval_05",
+        "Lucia_Caminos_04",
+        "Vice_City_12",
+        "Vice_City_05"
+      ],
+      "ids": {
+        "job": "2026-11-18-1947-jason-or-lucia",
+        "instagram_reel": "18421590289084419",
+        "instagram_story": "18109610822250263"
+      },
+      "status": "partial"
     }
   ],
-  "misses": []
+  "misses": [
+    {
+      "date": "2026-11-18",
+      "slot": "7:47 AM / 11:47 AM / 4:47 PM",
+      "reason": "No scheduled run recorded (routine not yet active); manual launch-night carousel went out 5:58 PM, so no catch-up posted"
+    },
+    {
+      "date": "2026-11-18",
+      "slot": "7:47 PM",
+      "platforms": [
+        "tiktok",
+        "youtube"
+      ],
+      "reason": "Buffer connector tools not available in this session"
+    }
+  ],
+  "metrics": {
+    "2026-11-18": {
+      "instagram": {
+        "followers": 0,
+        "posts": [
+          {
+            "media_id": "18118522628148122",
+            "reach": 0,
+            "likes": 0,
+            "comments": 0,
+            "saves": 0,
+            "shares": 0
+          }
+        ]
+      },
+      "note": "GitHub render took ~25 min (Index official videos step); browser fallback blocked by github.com CSP (eval)"
+    }
+  }
 }
