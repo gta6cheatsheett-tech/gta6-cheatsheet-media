@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-19-out-now-clip",
+  "type": "clip",
+  "source": "Launch_Trailer",
+  "segments": [
+    {
+      "scene": 2,
+      "max": 4
+    },
+    {
+      "scene": 7,
+      "max": 4
+    },
+    {
+      "scene": 3,
+      "max": 4
+    }
+  ],
+  "hook": "GTA 6 IS FINALLY OUT",
+  "captions": [
+    "Vice City is open",
+    "PS5 + Xbox Series X|S",
+    "Midnight your time"
+  ]
+}
