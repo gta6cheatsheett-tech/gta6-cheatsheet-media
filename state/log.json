@@ -37,6 +37,32 @@
         "instagram_story": "18109610822250263"
       },
       "status": "partial"
+    },
+    {
+      "date": "2026-11-19",
+      "slot": "out-now",
+      "time": "2026-11-19T00:04-05:00",
+      "platforms": [
+        "instagram",
+        "tiktok",
+        "youtube"
+      ],
+      "format": "reel+story (art reel fallback)",
+      "hook": "GTA 6 IS OUT NOW",
+      "source": "preview-2026-11-19-out-now (art reel); footage clip render failed at setup-ffmpeg step, run 44462193267",
+      "scenes": [],
+      "ids": {
+        "instagram_reel": "17973217748962456",
+        "instagram_story": "18109056257322523",
+        "tiktok_buffer": "6afe835f59eff0b616e03d84",
+        "tiktok_url": "https://tiktok.com/@gta6.cheatsheet/video/7709743974386273566",
+        "youtube_buffer": "6afe8369f6b6aa0cd4a21fe7"
+      },
+      "status": {
+        "instagram": "published",
+        "tiktok": "sent",
+        "youtube": "error: Buffer unknown error, failed twice"
+      }
     }
   ],
   "misses": [
@@ -53,6 +79,12 @@
         "youtube"
       ],
       "reason": "Buffer connector tools not available in this session"
+    },
+    {
+      "date": "2026-11-19",
+      "slot": "out-now",
+      "platform": "youtube",
+      "reason": "Buffer \"unknown error\" on shareNow + 1 retry"
     }
   ],
   "metrics": {
@@ -72,5 +104,6 @@
       },
       "note": "GitHub render took ~25 min (Index official videos step); browser fallback blocked by github.com CSP (eval)"
     }
-  }
+  },
+  "used_scenes": []
 }
