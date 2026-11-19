@@ -1,0 +1,126 @@
+{
+ "source": "Launch_Trailer",
+ "duration": 89.166667,
+ "scenes": [
+  {
+   "scene": 1,
+   "start": 0.0,
+   "end": 2.67
+  },
+  {
+   "scene": 2,
+   "start": 2.67,
+   "end": 9.97
+  },
+  {
+   "scene": 3,
+   "start": 9.97,
+   "end": 11.9
+  },
+  {
+   "scene": 4,
+   "start": 11.9,
+   "end": 14.2
+  },
+  {
+   "scene": 6,
+   "start": 15.17,
+   "end": 26.37
+  },
+  {
+   "scene": 7,
+   "start": 26.37,
+   "end": 27.83
+  },
+  {
+   "scene": 8,
+   "start": 27.83,
+   "end": 29.4
+  },
+  {
+   "scene": 9,
+   "start": 29.4,
+   "end": 32.8
+  },
+  {
+   "scene": 11,
+   "start": 33.63,
+   "end": 35.07
+  },
+  {
+   "scene": 12,
+   "start": 35.07,
+   "end": 38.0
+  },
+  {
+   "scene": 13,
+   "start": 38.0,
+   "end": 40.43
+  },
+  {
+   "scene": 14,
+   "start": 40.43,
+   "end": 42.33
+  },
+  {
+   "scene": 15,
+   "start": 42.33,
+   "end": 45.07
+  },
+  {
+   "scene": 16,
+   "start": 45.07,
+   "end": 46.97
+  },
+  {
+   "scene": 17,
+   "start": 46.97,
+   "end": 55.17
+  },
+  {
+   "scene": 18,
+   "start": 55.17,
+   "end": 57.07
+  },
+  {
+   "scene": 19,
+   "start": 57.07,
+   "end": 58.5
+  },
+  {
+   "scene": 20,
+   "start": 58.5,
+   "end": 59.9
+  },
+  {
+   "scene": 21,
+   "start": 59.9,
+   "end": 63.17
+  },
+  {
+   "scene": 23,
+   "start": 64.03,
+   "end": 67.07
+  },
+  {
+   "scene": 24,
+   "start": 67.07,
+   "end": 68.53
+  },
+  {
+   "scene": 25,
+   "start": 68.53,
+   "end": 72.77
+  },
+  {
+   "scene": 26,
+   "start": 72.77,
+   "end": 73.8
+  },
+  {
+   "scene": 27,
+   "start": 73.8,
+   "end": 89.17
+  }
+ ]
+}
