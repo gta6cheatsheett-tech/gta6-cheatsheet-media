@@ -1,0 +1,29 @@
+{
+ "id": "test-art-1",
+ "formats": [
+  "carousel",
+  "reel"
+ ],
+ "seconds_per_slide": 2.4,
+ "slides": [
+  {
+   "art": "Vice_City_13",
+   "kicker": "GTA 6 is here",
+   "headline": "Welcome to Vice City",
+   "lines": [
+    "Daily money tips, hidden spots and the best cars."
+   ]
+  },
+  {
+   "art": "ULTIMATE_EDITION_GROTTI_CHEETAH_01",
+   "kicker": "Test",
+   "headline": "Grotti Cheetah",
+   "rows": [
+    [
+     "Edition",
+     "Ultimate"
+    ]
+   ]
+  }
+ ]
+}
