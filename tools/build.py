@@ -210,7 +210,11 @@ if __name__ == "__main__":
         job = json.load(open(jf))
         if not os.path.exists(f"out/{job['id']}/done.json"):
             try:
-                build(job)
+                if job.get("type") == "clip":
+                    import clips
+                    clips.clip(job)
+                else:
+                    build(job)
             except Exception as e:
                 os.makedirs(f"out/{job['id']}", exist_ok=True)
                 json.dump({"id": job["id"], "error": str(e)}, open(f"out/{job['id']}/done.json", "w"))
