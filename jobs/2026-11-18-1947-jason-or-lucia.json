@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-18-1947-jason-or-lucia",
+  "formats": [
+    "carousel",
+    "reel"
+  ],
+  "seconds_per_slide": 2.6,
+  "slides": [
+    {
+      "art": "Jason_and_Lucia_03",
+      "kicker": "THIS OR THAT",
+      "headline": "Jason or Lucia?",
+      "lines": [
+        "Two leads. One pick.",
+        "Drop your main below"
+      ]
+    },
+    {
+      "art": "Jason_Duval_05",
+      "kicker": "TEAM JASON",
+      "headline": "Jason Duval",
+      "lines": [
+        "One half of GTA 6's duo",
+        "Comment J if he's your pick"
+      ]
+    },
+    {
+      "art": "Lucia_Caminos_04",
+      "kicker": "TEAM LUCIA",
+      "headline": "Lucia Caminos",
+      "lines": [
+        "The other half of the duo",
+        "Comment L if she's your pick"
+      ]
+    },
+    {
+      "art": "Vice_City_12",
+      "kicker": "WHERE IT STARTS",
+      "headline": "Welcome to Leonida",
+      "lines": [
+        "Vice City and the state around it",
+        "Where are you heading first?"
+      ]
+    },
+    {
+      "art": "Vice_City_05",
+      "kicker": "DAY 1 CREW",
+      "headline": "Save this + follow",
+      "lines": [
+        "Daily GTA 6 money tips",
+        "Fan page, not affiliated with Rockstar"
+      ]
+    }
+  ]
+}
