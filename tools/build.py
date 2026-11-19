@@ -140,9 +140,9 @@ def overlay(w, h, s, page, total, has_art):
     d.text((m + 160, 82), "GTA 6 CHEAT SHEET", font=cf, fill=CYAN, anchor="mm")
     if total > 1:
         d.text((w - m, 82), f"{page}/{total}", font=cf, fill=SOFT, anchor="rm")
-    foot = "@gta6.cheatsheet · fan page, not affiliated with Rockstar Games"
+    foot = "@gta6.cheatsheet · Fan page, not affiliated with Rockstar"
     if has_art:
-        foot = "Screenshot: Rockstar Games · " + foot
+        foot = "Screenshot: Rockstar Games · @gta6.cheatsheet · Unofficial fan page"
     d.text((w // 2, h - 54), foot, font=font(FONT_BODY, 22), fill=SOFT, anchor="mm")
     return lay
 
