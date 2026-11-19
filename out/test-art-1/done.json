@@ -1,0 +1,9 @@
+{
+  "id": "test-art-1",
+  "carousel": [
+    "https://raw.githubusercontent.com/gta6cheatsheett-tech/gta6-cheatsheet-media/main/out/test-art-1/slide_1.jpg",
+    "https://raw.githubusercontent.com/gta6cheatsheett-tech/gta6-cheatsheet-media/main/out/test-art-1/slide_2.jpg"
+  ],
+  "reel": "https://raw.githubusercontent.com/gta6cheatsheett-tech/gta6-cheatsheet-media/main/out/test-art-1/reel.mp4",
+  "reel_cover": "https://raw.githubusercontent.com/gta6cheatsheett-tech/gta6-cheatsheet-media/main/out/test-art-1/reel_cover.jpg"
+}
