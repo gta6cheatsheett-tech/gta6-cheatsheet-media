@@ -63,6 +63,42 @@
         "tiktok": "sent",
         "youtube": "error: Buffer unknown error, failed twice"
       }
+    },
+    {
+      "date": "2026-11-20",
+      "slot": "11:47 AM",
+      "time": "2026-11-20T15:01-06:00",
+      "platforms": [
+        "instagram",
+        "tiktok",
+        "youtube"
+      ],
+      "formats": [
+        "clip reel",
+        "story"
+      ],
+      "pillar": "how-to / money tips",
+      "hook": "HOW TO GET RICH EARLY IN GTA 6",
+      "art": [],
+      "source": "Launch_Trailer",
+      "scenes": [
+        14,
+        13,
+        25
+      ],
+      "ids": {
+        "job": "2026-11-20-1147-money-how-to-clip",
+        "instagram_reel": "17973784685961780",
+        "instagram_story": "17997072006024900",
+        "tiktok_buffer": "6b00b5139ffbc8503cd5f88b",
+        "youtube_buffer": "6b00b51d20a2d09a0aadcb12"
+      },
+      "status": {
+        "instagram": "published",
+        "tiktok": "sending",
+        "youtube": "sent"
+      },
+      "note": "Run fired 3h late (scheduler fired 20:54 UTC for 17:47 UTC slot). Clip render worked (7.8s). Facts: GamesRadar + GTABase money guides, TweakTown/GamingBolt corroborating."
     }
   ],
   "misses": [
@@ -85,6 +121,21 @@
       "slot": "out-now",
       "platform": "youtube",
       "reason": "Buffer \"unknown error\" on shareNow + 1 retry"
+    },
+    {
+      "date": "2026-11-20",
+      "slot": "7:47 AM",
+      "platforms": [
+        "instagram",
+        "tiktok",
+        "youtube"
+      ],
+      "reason": "No run recorded for this slot (routine did not fire). Catch-up carousel attempted in the 11:47 run; clip part skipped to avoid double-posting video."
+    },
+    {
+      "date": "2026-11-19",
+      "slot": "7:47 AM / 11:47 AM / 4:47 PM / 7:47 PM",
+      "reason": "No runs recorded on launch day; older than 24h, not caught up"
     }
   ],
   "metrics": {
@@ -105,5 +156,41 @@
       "note": "GitHub render took ~25 min (Index official videos step); browser fallback blocked by github.com CSP (eval)"
     }
   },
-  "used_scenes": []
+  "used_scenes": [
+    {
+      "source": "Launch_Trailer",
+      "scene": 2,
+      "date": "2026-11-18"
+    },
+    {
+      "source": "Launch_Trailer",
+      "scene": 6,
+      "date": "2026-11-18"
+    },
+    {
+      "source": "Launch_Trailer",
+      "scene": 17,
+      "date": "2026-11-18"
+    },
+    {
+      "source": "Launch_Trailer",
+      "scene": 18,
+      "date": "2026-11-18"
+    },
+    {
+      "source": "Launch_Trailer",
+      "scene": 14,
+      "date": "2026-11-20"
+    },
+    {
+      "source": "Launch_Trailer",
+      "scene": 13,
+      "date": "2026-11-20"
+    },
+    {
+      "source": "Launch_Trailer",
+      "scene": 25,
+      "date": "2026-11-20"
+    }
+  ]
 }
