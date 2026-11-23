@@ -1,0 +1,70 @@
+{
+ "id": "2026-11-22-1647-leonida-regions",
+ "formats": [
+  "carousel"
+ ],
+ "slides": [
+  {
+   "art": "Vice_City_08",
+   "kicker": "SPOTLIGHT",
+   "headline": "Leonida has 6 regions",
+   "lines": [
+    "GTA 6 is way more than Vice City"
+   ]
+  },
+  {
+   "art": "Leonida_Keys_02",
+   "kicker": "THE COAST",
+   "headline": "City + islands",
+   "rows": [
+    [
+     "Vice City",
+     "Neon-lit metropolis"
+    ],
+    [
+     "Leonida Keys",
+     "Islands and beaches"
+    ]
+   ]
+  },
+  {
+   "art": "Grassrivers_03",
+   "kicker": "THE WILD",
+   "headline": "Swamps + mountains",
+   "rows": [
+    [
+     "Grassrivers",
+     "Wetlands"
+    ],
+    [
+     "Mount Kalaga",
+     "National park"
+    ]
+   ]
+  },
+  {
+   "art": "Port_Gellhorn_02",
+   "kicker": "THE TOWNS",
+   "headline": "Ports + industry",
+   "rows": [
+    [
+     "Port Gellhorn",
+     "Port town"
+    ],
+    [
+     "Ambrosia",
+     "Inland industry town"
+    ]
+   ]
+  },
+  {
+   "art": "Ambrosia_02",
+   "kicker": "SAVE + FOLLOW",
+   "headline": "Which region first?",
+   "lines": [
+    "Comment your pick",
+    "Follow @gta6.cheatsheet for daily tips"
+   ]
+  }
+ ]
+}
