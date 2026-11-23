@@ -1,0 +1,25 @@
+{
+ "id": "2026-11-22-1647-leonida-regions-clip",
+ "type": "clip",
+ "source": "Launch_Trailer",
+ "segments": [
+  {
+   "scene": 8,
+   "max": 2
+  },
+  {
+   "scene": 3,
+   "max": 2
+  },
+  {
+   "scene": 4,
+   "max": 2.3
+  }
+ ],
+ "hook": "LEONIDA IS WAY MORE THAN VICE CITY",
+ "captions": [
+  "Swamp country at sunset",
+  "Life on the water",
+  "Small-town streets"
+ ]
+}
