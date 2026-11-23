@@ -1,0 +1,30 @@
+{
+ "id": "2026-11-22-1947-better-duo-clip",
+ "type": "clip",
+ "source": "Launch_Trailer",
+ "segments": [
+  {
+   "scene": 7,
+   "max": 1.5
+  },
+  {
+   "scene": 12,
+   "max": 3
+  },
+  {
+   "scene": 24,
+   "max": 1.5
+  },
+  {
+   "scene": 26,
+   "max": 1
+  }
+ ],
+ "hook": "NAME A BETTER DUO",
+ "captions": [
+  "Jason and Lucia",
+  "Partners in everything",
+  "Ride or die",
+  "Both can hold their own"
+ ]
+}
