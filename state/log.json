@@ -1,201 +1,403 @@
 {
-  "timezone": "America/Chicago",
-  "posts": [
-    {
-      "date": "2026-11-18",
-      "slot": "launch-night",
-      "time": "2026-11-18T17:58-06:00",
-      "platform": "instagram",
-      "format": "carousel",
-      "pillar": "official news",
-      "hook": "GTA 6 is already live",
-      "media_id": "18118522628148122",
-      "status": "posted"
-    },
-    {
-      "date": "2026-11-18",
-      "slot": "7:47 PM",
-      "time": "2026-11-19T02:11:01.711Z",
-      "platforms": {
-        "instagram": "reel+story posted",
-        "tiktok": "missed - Buffer connector not available",
-        "youtube": "missed - Buffer connector not available"
-      },
-      "format": "reel+story",
-      "pillar": "engagement (this or that)",
-      "hook": "Jason or Lucia?",
-      "art": [
-        "Jason_and_Lucia_03",
-        "Jason_Duval_05",
-        "Lucia_Caminos_04",
-        "Vice_City_12",
-        "Vice_City_05"
-      ],
-      "ids": {
-        "job": "2026-11-18-1947-jason-or-lucia",
-        "instagram_reel": "18421590289084419",
-        "instagram_story": "18109610822250263"
-      },
-      "status": "partial"
-    },
-    {
-      "date": "2026-11-19",
-      "slot": "out-now",
-      "time": "2026-11-19T00:04-05:00",
-      "platforms": [
-        "instagram",
-        "tiktok",
-        "youtube"
-      ],
-      "format": "reel+story (art reel fallback)",
-      "hook": "GTA 6 IS OUT NOW",
-      "source": "preview-2026-11-19-out-now (art reel); footage clip render failed at setup-ffmpeg step, run 44462193267",
-      "scenes": [],
-      "ids": {
-        "instagram_reel": "17973217748962456",
-        "instagram_story": "18109056257322523",
-        "tiktok_buffer": "6afe835f59eff0b616e03d84",
-        "tiktok_url": "https://tiktok.com/@gta6.cheatsheet/video/7709743974386273566",
-        "youtube_buffer": "6afe8369f6b6aa0cd4a21fe7"
-      },
-      "status": {
-        "instagram": "published",
-        "tiktok": "sent",
-        "youtube": "error: Buffer unknown error, failed twice"
-      }
-    },
-    {
-      "date": "2026-11-20",
-      "slot": "11:47 AM",
-      "time": "2026-11-20T15:01-06:00",
-      "platforms": [
-        "instagram",
-        "tiktok",
-        "youtube"
-      ],
-      "formats": [
-        "clip reel",
-        "story"
-      ],
-      "pillar": "how-to / money tips",
-      "hook": "HOW TO GET RICH EARLY IN GTA 6",
-      "art": [],
-      "source": "Launch_Trailer",
-      "scenes": [
-        14,
-        13,
-        25
-      ],
-      "ids": {
-        "job": "2026-11-20-1147-money-how-to-clip",
-        "instagram_reel": "17973784685961780",
-        "instagram_story": "17997072006024900",
-        "tiktok_buffer": "6b00b5139ffbc8503cd5f88b",
-        "youtube_buffer": "6b00b51d20a2d09a0aadcb12"
-      },
-      "status": {
-        "instagram": "published",
-        "tiktok": "sending",
-        "youtube": "sent"
-      },
-      "note": "Run fired 3h late (scheduler fired 20:54 UTC for 17:47 UTC slot). Clip render worked (7.8s). Facts: GamesRadar + GTABase money guides, TweakTown/GamingBolt corroborating."
-    }
-  ],
-  "misses": [
-    {
-      "date": "2026-11-18",
-      "slot": "7:47 AM / 11:47 AM / 4:47 PM",
-      "reason": "No scheduled run recorded (routine not yet active); manual launch-night carousel went out 5:58 PM, so no catch-up posted"
-    },
-    {
-      "date": "2026-11-18",
-      "slot": "7:47 PM",
-      "platforms": [
-        "tiktok",
-        "youtube"
-      ],
-      "reason": "Buffer connector tools not available in this session"
-    },
-    {
-      "date": "2026-11-19",
-      "slot": "out-now",
-      "platform": "youtube",
-      "reason": "Buffer \"unknown error\" on shareNow + 1 retry"
-    },
-    {
-      "date": "2026-11-20",
-      "slot": "7:47 AM",
-      "platforms": [
-        "instagram",
-        "tiktok",
-        "youtube"
-      ],
-      "reason": "No run recorded for this slot (routine did not fire). Catch-up carousel job 2026-11-20-0747-day-2-leonida submitted in the 11:47 run but still queued behind the clip run's \"Index official videos\" step (>11 min) when the run ended; NOT posted. Next run: if out/2026-11-20-0747-day-2-leonida/done.json exists and it is within 24h, post it to IG feed. In-browser render.js fallback is blocked by github.com CSP (unsafe-eval).",
-      "catchup": {
-        "job": "2026-11-20-0747-day-2-leonida",
-        "status": "rendering-queued",
-        "caption_draft": "Day 2 in Leonida: what to know today\n\nGTA 6 is out now on PS5 and Xbox Series X|S.\nIt landed a 99 on Metacritic, tied for the highest score on the site.\nPhysical boxes contain a download code, not a disc.\nEarly cash: rob stores, steal and sell cars, crack safes and tow ATMs.\n\nWhat was the first thing you did in Vice City?\n\nFollow for daily GTA 6 tips\nFan page, not affiliated with Rockstar Games.\n\n#GTA6 #GTAVI #ViceCity #GTA6News"
-      }
-    },
-    {
-      "date": "2026-11-19",
-      "slot": "7:47 AM / 11:47 AM / 4:47 PM / 7:47 PM",
-      "reason": "No runs recorded on launch day; older than 24h, not caught up"
-    }
-  ],
-  "metrics": {
-    "2026-11-18": {
-      "instagram": {
-        "followers": 0,
-        "posts": [
-          {
-            "media_id": "18118522628148122",
-            "reach": 0,
-            "likes": 0,
-            "comments": 0,
-            "saves": 0,
-            "shares": 0
-          }
-        ]
-      },
-      "note": "GitHub render took ~25 min (Index official videos step); browser fallback blocked by github.com CSP (eval)"
-    }
+ "timezone": "America/Chicago",
+ "posts": [
+  {
+   "date": "2026-11-18",
+   "slot": "launch-night",
+   "time": "2026-11-18T17:58-06:00",
+   "platform": "instagram",
+   "format": "carousel",
+   "pillar": "official news",
+   "hook": "GTA 6 is already live",
+   "media_id": "18118522628148122",
+   "status": "posted"
   },
-  "used_scenes": [
-    {
-      "source": "Launch_Trailer",
-      "scene": 2,
-      "date": "2026-11-18"
-    },
-    {
-      "source": "Launch_Trailer",
-      "scene": 6,
-      "date": "2026-11-18"
-    },
-    {
-      "source": "Launch_Trailer",
-      "scene": 17,
-      "date": "2026-11-18"
-    },
-    {
-      "source": "Launch_Trailer",
-      "scene": 18,
-      "date": "2026-11-18"
-    },
-    {
-      "source": "Launch_Trailer",
-      "scene": 14,
-      "date": "2026-11-20"
-    },
-    {
-      "source": "Launch_Trailer",
-      "scene": 13,
-      "date": "2026-11-20"
-    },
-    {
-      "source": "Launch_Trailer",
-      "scene": 25,
-      "date": "2026-11-20"
-    }
-  ]
+  {
+   "date": "2026-11-18",
+   "slot": "7:47 PM",
+   "time": "2026-11-19T02:11:01.711Z",
+   "platforms": {
+    "instagram": "reel+story posted",
+    "tiktok": "missed - Buffer connector not available",
+    "youtube": "missed - Buffer connector not available"
+   },
+   "format": "reel+story",
+   "pillar": "engagement (this or that)",
+   "hook": "Jason or Lucia?",
+   "art": [
+    "Jason_and_Lucia_03",
+    "Jason_Duval_05",
+    "Lucia_Caminos_04",
+    "Vice_City_12",
+    "Vice_City_05"
+   ],
+   "ids": {
+    "job": "2026-11-18-1947-jason-or-lucia",
+    "instagram_reel": "18421590289084419",
+    "instagram_story": "18109610822250263"
+   },
+   "status": "partial"
+  },
+  {
+   "date": "2026-11-19",
+   "slot": "out-now",
+   "time": "2026-11-19T00:04-05:00",
+   "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+   ],
+   "format": "reel+story (art reel fallback)",
+   "hook": "GTA 6 IS OUT NOW",
+   "source": "preview-2026-11-19-out-now (art reel); footage clip render failed at setup-ffmpeg step, run 44462193267",
+   "scenes": [],
+   "ids": {
+    "instagram_reel": "17973217748962456",
+    "instagram_story": "18109056257322523",
+    "tiktok_buffer": "6afe835f59eff0b616e03d84",
+    "tiktok_url": "https://tiktok.com/@gta6.cheatsheet/video/7709743974386273566",
+    "youtube_buffer": "6afe8369f6b6aa0cd4a21fe7"
+   },
+   "status": {
+    "instagram": "published",
+    "tiktok": "sent",
+    "youtube": "error: Buffer unknown error, failed twice"
+   }
+  },
+  {
+   "date": "2026-11-20",
+   "slot": "11:47 AM",
+   "time": "2026-11-20T15:01-06:00",
+   "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+   ],
+   "formats": [
+    "clip reel",
+    "story"
+   ],
+   "pillar": "how-to / money tips",
+   "hook": "HOW TO GET RICH EARLY IN GTA 6",
+   "art": [],
+   "source": "Launch_Trailer",
+   "scenes": [
+    14,
+    13,
+    25
+   ],
+   "ids": {
+    "job": "2026-11-20-1147-money-how-to-clip",
+    "instagram_reel": "17973784685961780",
+    "instagram_story": "17997072006024900",
+    "tiktok_buffer": "6b00b5139ffbc8503cd5f88b",
+    "youtube_buffer": "6b00b51d20a2d09a0aadcb12"
+   },
+   "status": {
+    "instagram": "published",
+    "tiktok": "sending",
+    "youtube": "sent"
+   },
+   "note": "Run fired 3h late (scheduler fired 20:54 UTC for 17:47 UTC slot). Clip render worked (7.8s). Facts: GamesRadar + GTABase money guides, TweakTown/GamingBolt corroborating."
+  },
+  {
+   "date": "2026-11-22",
+   "slot": "4:47 PM (catch-up)",
+   "time": "2026-11-22T22:03-06:00",
+   "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+   ],
+   "formats": [
+    "carousel",
+    "clip",
+    "story"
+   ],
+   "pillar": "spotlight",
+   "hook": "Leonida is way more than Vice City",
+   "art": [
+    "Vice_City_08",
+    "Leonida_Keys_02",
+    "Grassrivers_03",
+    "Port_Gellhorn_02",
+    "Ambrosia_02"
+   ],
+   "source": "Launch_Trailer",
+   "scenes": [
+    8,
+    3,
+    4
+   ],
+   "ids": {
+    "job": "2026-11-22-1647-leonida-regions",
+    "clip_job": "2026-11-22-1647-leonida-regions-clip",
+    "instagram_carousel": "17878887150582774",
+    "instagram_story": "18165628141529221",
+    "tiktok_buffer": "6b03bb0ba6de38de9eb92249",
+    "tiktok_url": "https://tiktok.com/@gta6.cheatsheet/video/7711212586036956430",
+    "youtube_buffer": "6b03bb16c72676f5e9841c66"
+   },
+   "status": {
+    "instagram": "published",
+    "tiktok": "sent",
+    "youtube": "sent"
+   },
+   "note": "Facts: six regions per PC Gamer + GamesRadar map guides."
+  },
+  {
+   "date": "2026-11-22",
+   "slot": "7:47 PM",
+   "time": "2026-11-22T22:05-06:00",
+   "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+   ],
+   "formats": [
+    "clip reel",
+    "story"
+   ],
+   "pillar": "engagement",
+   "hook": "Name a better duo",
+   "art": [],
+   "source": "Launch_Trailer",
+   "scenes": [
+    7,
+    12,
+    24,
+    26
+   ],
+   "ids": {
+    "clip_job": "2026-11-22-1947-better-duo-clip",
+    "instagram_reel": "18116775701619065",
+    "instagram_story": "17894398455686964",
+    "instagram_correction_comment": "18118319369156253",
+    "tiktok_buffer": "6b03bb64846b0ee907e03c01",
+    "youtube_buffer": "6b03bb6fd864a011051ca5d8"
+   },
+   "status": {
+    "instagram": "published",
+    "tiktok": "sending",
+    "youtube": "sent"
+   },
+   "note": "IG reel caption has an unverified line (first dual-protagonist GTA; GTA V had 3). Delete blocked; correction comment added; flagged to Phillip to edit caption. Run fired ~2h late; renders waited ~18 min behind Index official videos step."
+  }
+ ],
+ "misses": [
+  {
+   "date": "2026-11-18",
+   "slot": "7:47 AM / 11:47 AM / 4:47 PM",
+   "reason": "No scheduled run recorded (routine not yet active); manual launch-night carousel went out 5:58 PM, so no catch-up posted"
+  },
+  {
+   "date": "2026-11-18",
+   "slot": "7:47 PM",
+   "platforms": [
+    "tiktok",
+    "youtube"
+   ],
+   "reason": "Buffer connector tools not available in this session"
+  },
+  {
+   "date": "2026-11-19",
+   "slot": "out-now",
+   "platform": "youtube",
+   "reason": "Buffer \"unknown error\" on shareNow + 1 retry"
+  },
+  {
+   "date": "2026-11-20",
+   "slot": "7:47 AM",
+   "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+   ],
+   "reason": "No run recorded for this slot (routine did not fire). Catch-up carousel job 2026-11-20-0747-day-2-leonida submitted in the 11:47 run but still queued behind the clip run's \"Index official videos\" step (>11 min) when the run ended; NOT posted. Next run: if out/2026-11-20-0747-day-2-leonida/done.json exists and it is within 24h, post it to IG feed. In-browser render.js fallback is blocked by github.com CSP (unsafe-eval).",
+   "catchup": {
+    "job": "2026-11-20-0747-day-2-leonida",
+    "status": "rendering-queued",
+    "caption_draft": "Day 2 in Leonida: what to know today\n\nGTA 6 is out now on PS5 and Xbox Series X|S.\nIt landed a 99 on Metacritic, tied for the highest score on the site.\nPhysical boxes contain a download code, not a disc.\nEarly cash: rob stores, steal and sell cars, crack safes and tow ATMs.\n\nWhat was the first thing you did in Vice City?\n\nFollow for daily GTA 6 tips\nFan page, not affiliated with Rockstar Games.\n\n#GTA6 #GTAVI #ViceCity #GTA6News"
+   }
+  },
+  {
+   "date": "2026-11-19",
+   "slot": "7:47 AM / 11:47 AM / 4:47 PM / 7:47 PM",
+   "reason": "No runs recorded on launch day; older than 24h, not caught up"
+  },
+  {
+   "date": "2026-11-20..22",
+   "slot": "2026-11-20 4:47 PM, 2026-11-20 7:47 PM, 2026-11-21 7:47 AM, 2026-11-21 11:47 AM, 2026-11-21 4:47 PM, 2026-11-21 7:47 PM, 2026-11-22 7:47 AM, 2026-11-22 11:47 AM",
+   "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+   ],
+   "reason": "No runs recorded (no repo commits or Buffer posts between 2026-11-20 21:20 UTC and 2026-11-23 03:38 UTC); scheduled task did not fire or failed before logging. Older than 24h or superseded; only 2026-11-22 4:47 PM caught up."
+  },
+  {
+   "date": "2026-11-20",
+   "slot": "7:47 AM catch-up",
+   "reason": "day-2-leonida carousel rendered but never posted; now >24h old, dropped"
+  }
+ ],
+ "metrics": {
+  "2026-11-18": {
+   "instagram": {
+    "followers": 0,
+    "posts": [
+     {
+      "media_id": "18118522628148122",
+      "reach": 0,
+      "likes": 0,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0
+     }
+    ]
+   },
+   "note": "GitHub render took ~25 min (Index official videos step); browser fallback blocked by github.com CSP (eval)"
+  },
+  "2026-11-22": {
+   "instagram": {
+    "followers": 1,
+    "media_count": 5,
+    "posts": [
+     {
+      "media_id": "17973784685961780",
+      "hook": "How to get rich early",
+      "type": "clip reel",
+      "reach": 131,
+      "views": 172
+     },
+     {
+      "media_id": "17973217748962456",
+      "hook": "GTA 6 is out now",
+      "type": "art reel",
+      "reach": 63,
+      "views": 66
+     },
+     {
+      "media_id": "18135403633754526",
+      "type": "clip reel (vice city)",
+      "reach": 56,
+      "views": 59
+     },
+     {
+      "media_id": "18421590289084419",
+      "hook": "Jason or Lucia",
+      "type": "art reel",
+      "reach": 13,
+      "views": 12
+     },
+     {
+      "media_id": "18118522628148122",
+      "type": "carousel",
+      "reach": 6,
+      "views": 7
+     }
+    ]
+   },
+   "tiktok": {
+    "posts": [
+     {
+      "hook": "How to get rich early (footage clip)",
+      "views": 871,
+      "reach": 728,
+      "likes": 15,
+      "shares": 1,
+      "avg_watch_s": 5.8
+     },
+     {
+      "hook": "GTA 6 is out now (art reel)",
+      "views": 255,
+      "likes": 2,
+      "avg_watch_s": 2.34
+     },
+     {
+      "hook": "Vice City looks unreal (footage clip)",
+      "views": 114,
+      "likes": 2,
+      "avg_watch_s": 4.07
+     }
+    ]
+   },
+   "youtube": {
+    "note": "Buffer reports 0 views on all Shorts; 2 earlier posts errored"
+   },
+   "lessons": "Footage + money how-to clip wins big on every platform (~4-8x others). Art reels and carousels underperform. Test tomorrow: footage money/tips clip at both 11:47 and 7:47."
+  }
+ },
+ "used_scenes": [
+  {
+   "source": "Launch_Trailer",
+   "scene": 2,
+   "date": "2026-11-18"
+  },
+  {
+   "source": "Launch_Trailer",
+   "scene": 6,
+   "date": "2026-11-18"
+  },
+  {
+   "source": "Launch_Trailer",
+   "scene": 17,
+   "date": "2026-11-18"
+  },
+  {
+   "source": "Launch_Trailer",
+   "scene": 18,
+   "date": "2026-11-18"
+  },
+  {
+   "source": "Launch_Trailer",
+   "scene": 14,
+   "date": "2026-11-20"
+  },
+  {
+   "source": "Launch_Trailer",
+   "scene": 13,
+   "date": "2026-11-20"
+  },
+  {
+   "source": "Launch_Trailer",
+   "scene": 25,
+   "date": "2026-11-20"
+  },
+  {
+   "date": "2026-11-22",
+   "scene": 8,
+   "source": "Launch_Trailer"
+  },
+  {
+   "date": "2026-11-22",
+   "scene": 3,
+   "source": "Launch_Trailer"
+  },
+  {
+   "date": "2026-11-22",
+   "scene": 4,
+   "source": "Launch_Trailer"
+  },
+  {
+   "date": "2026-11-22",
+   "scene": 7,
+   "source": "Launch_Trailer"
+  },
+  {
+   "date": "2026-11-22",
+   "scene": 12,
+   "source": "Launch_Trailer"
+  },
+  {
+   "date": "2026-11-22",
+   "scene": 24,
+   "source": "Launch_Trailer"
+  },
+  {
+   "date": "2026-11-22",
+   "scene": 26,
+   "source": "Launch_Trailer"
+  }
+ ]
 }
